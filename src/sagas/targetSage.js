@@ -22,7 +22,7 @@ function getLives(state) {
 function* targetSaga() {
     while (true) {
         // console.log("toto")
-        yield call(delay, 3000)
+        yield call(delay, 1000)
 
         const isStarted = yield select(getisStarted);
 
